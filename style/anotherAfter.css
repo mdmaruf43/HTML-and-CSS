@@ -23,8 +23,8 @@
 
 .box::after, .box::before{
     content: '';
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background: purple;
     position: absolute;
     transform: rotate(45deg);  
@@ -39,5 +39,4 @@
 .box::before{
     top: 80px;
     right: -20px;
-
 }
